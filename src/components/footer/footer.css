@@ -34,14 +34,11 @@
   margin: 0 5 px;
   border-radius: 50%;
   background: #333;
-  /* -webkit-transition: all 0.3s;
-  transition: all 0.3s; */
   display: inline-block;
   margin: 5px;
 }
-/* 
-.footer-menu ul {
-  justify-content: center;
-  margin-bottom: 15 px;
-  
-} */
+
+
+.footer-menu ul li:hover {
+  box-shadow: 0 0 5px #33ffff, 0 0 10px #66ffff;
+}

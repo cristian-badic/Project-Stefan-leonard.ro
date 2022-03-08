@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Train+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
+
 .container {
   display: flex;
   flex-direction: column;
@@ -5,41 +8,31 @@
 
 .galleryWorking {
   margin-bottom: 20px;
-  background-color: rgb(243, 247, 224);
+  background-color: rgb(204, 204, 189);
+  border-radius: 5px;
 }
 
 .tabs-buttons-container-working {
   display: flex;
   padding: 1rem;
+  font-size: 22px;
 }
 
 .tabs-buttons-container-working button {
+  font-family: "Bebas Neue", cursive;
   flex: 1;
-  background: white;
   border: 1px solid black;
   border-radius: 4px;
-  background-color: rgb(3, 75, 184);
+  background-color: rgba(0, 0, 0, 0.87);
+  color: white;
+}
+.tabs-buttons-container-working button:hover {
+  box-shadow: 0 0 5px #33ffff, 0 0 10px #66ffff;
+  color: cyan;
 }
 
 .tabs-buttons-container button:nth-child(odd) {
   border-right: none;
-}
-
-.masonry-container {
-  width: 100%;
-  margin: auto;
-  margin-top: 10px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  margin-bottom: 5px;
-  display: flex;
-}
-
-p {
-  text-align: center;
-  padding: 4px;
-  font-family: monospace;
-  background: #222;
-  color: #efefef;
 }
 
 .galleryWorking {

@@ -13,18 +13,27 @@ const Footer = () => {
             <div className="footer-menu  ">
               <ul className="d-flex justify-content-center">
                 <li>
-                  <a target="_blank" href="https://www.facebook.com/">
-                    <FaFacebook size={"40px"} color="#21252" />
+                  <a
+                    target="_blank"
+                    href="https://www.facebook.com/stefan.istrate.393"
+                  >
+                    <FaFacebook size={"40px"} color="#0B84F0" />
                   </a>
                 </li>
                 <li>
-                  <a target="_blank" href="https://twitter.com/">
-                    <FaInstagram size={"40px"} color="#21252" />
+                  <a
+                    target="_blank"
+                    href="https://www.instagram.com/stefan_leonard97/"
+                  >
+                    <FaInstagram size={"40px"} color="#F12F7C" />
                   </a>
                 </li>
                 <li>
-                  <a target="_blank" href="https://twitter.com/">
-                    <FaYoutube size={"40px"} color="#21252" />
+                  <a
+                    target="_blank"
+                    href="https://www.youtube.com/c/StefanLeonard"
+                  >
+                    <FaYoutube size={"40px"} color="red" />
                   </a>
                 </li>
               </ul>

@@ -20,7 +20,7 @@ const PortofolioHobby = () => {
   }, []);
 
   const filterByCategory = (data) => {
-    const categories = ["nature", "background", "urbanism", "public-events"];
+    const categories = ["landscapes", "urbanism","shooting-cars"];
     const arr = [];
     categories.forEach((cat) => {
       arr.push(data.filter((imgObj) => imgObj.category === cat));
@@ -43,30 +43,24 @@ const PortofolioHobby = () => {
   return (
     <>
       <div className="container">
-        <div className="tabs-buttons-container">
+        <div className="tabs-buttons-container-hobby">
           <button
             onClick={() => handleTabsOnClick(0)}
             style={{ opacity: tab === 0 ? 1 : 0.6 }}
           >
-            Nature1
+           Landscapes
           </button>
           <button
             onClick={() => handleTabsOnClick(1)}
             style={{ opacity: tab === 1 ? 1 : 0.6 }}
           >
-            BackGround1
+            Urbanism
           </button>
           <button
             onClick={() => handleTabsOnClick(2)}
             style={{ opacity: tab === 2 ? 1 : 0.6 }}
           >
-            Urbanism1
-          </button>
-          <button
-            onClick={() => handleTabsOnClick(3)}
-            style={{ opacity: tab === 3 ? 1 : 0.6 }}
-          >
-            Public Events1
+            Shooting Cars
           </button>
         </div>
 
@@ -75,7 +69,7 @@ const PortofolioHobby = () => {
           <CloseIcon onClick={() => setModel(false)} />
         </div>
 
-        <div className="gallery">
+        <div className="galleryHobby">
           {portofolioImages.length > 0 &&
             portofolioImages[tab].map((item) => (
               <div
